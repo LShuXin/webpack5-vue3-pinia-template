@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./PangMenZhengDao-Cu.woff2') format('woff2');
+  /*
+  src1: url('./my-font.woff2') format('woff2'),
+      url('./my-font.woff') format('woff');
+  */
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'MyFont';
+}
+.hello {
+  color: red;
+  background: url('./icon.png');
+  font-family: 'MyFont';
+}
